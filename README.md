@@ -1,35 +1,54 @@
 # Hi, I'm João 👋
 
-I'm a **Software Engineering student at UNIJUÍ**, focused on building a strong foundation in software development with attention to clarity, consistency, and good practices. Passionate about technology as a tool for **social impact** — with a human-centered approach focused on integration, accessibility, and strengthening the Brazilian community.
+---
+
+## 🎓 About Me
+
+I am a Software Engineering student at UNIJUÍ, currently focused on building a strong foundation in software development. My studies emphasize core programming concepts, with attention to clarity, consistency, and good development practices.
+
+I have practical experience with JavaScript and HTML, along with version control using Git and GitHub. I continuously develop my skills through academic activities and personal projects.
+
+I am particularly interested in technology as a tool for social impact, aiming to design and contribute to projects with a human-centered approach, focused on integration, accessibility, and strengthening the Brazilian community.
 
 ---
 
 ## ⚙️ Skills
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+JavaScript &nbsp;|&nbsp; HTML &nbsp;|&nbsp; Git and GitHub
 
 ---
 
 ## 📚 Current Focus
 
-Consolidating fundamental knowledge in programming and software development — problem-solving, code organization, and project structuring.
+At this stage, my priority is to consolidate fundamental knowledge in programming and software development, including problem-solving, code organization, and project structuring.
 
 ---
 
 ## 🎯 Goals
 
-- 🔨 Develop consistent and well-structured projects
-- 🔧 Expand my knowledge in backend development
-- 🤝 Contribute to initiatives with social and community impact
+- Develop consistent and well-structured projects
+- Expand my knowledge in backend development
+- Contribute to initiatives with social and community impact
 
 ---
 
-## 📫 Contact & Social
+## 📫 Contact
 
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaobohncostawork@email.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaumns)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jaumnss/)
-[![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/wlgoih8yr7pimasv1bkz58gha?si=1bec960a3d534302)
+**Email:** joaobohncostawork@email.com
+
+**Minhas redes sociais:**
+
+<p align="left">
+  <a href="mailto:joaobohncostawork@email.com">
+    <img src="https://img.shields.io/badge/-Gmail-EA4335?style=social&logo=gmail" height="32" alt="Gmail"/>
+  </a>&nbsp;&nbsp;
+  <a href="https://www.instagram.com/jaumnss/" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=social&logo=instagram" height="32" alt="Instagram"/>
+  </a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/jaumns" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=social&logo=linkedin" height="32" alt="LinkedIn"/>
+  </a>&nbsp;&nbsp;
+  <a href="https://open.spotify.com/user/wlgoih8yr7pimasv1bkz58gha?si=1bec960a3d534302" target="_blank">
+    <img src="https://img.shields.io/badge/-Spotify-1DB954?style=social&logo=spotify" height="32" alt="Spotify"/>
+  </a>
+</p>
