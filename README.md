@@ -2,7 +2,7 @@
 
 ---
 
-## 🎓 About Me
+## About Me
 
 I am a Software Engineering student at UNIJUÍ, currently focused on building a strong foundation in software development. My studies emphasize core programming concepts, with attention to clarity, consistency, and good development practices.
 
@@ -23,13 +23,13 @@ I am particularly interested in technology as a tool for social impact, aiming t
 
 ---
 
-## 📚 Current Focus
+## Current Focus
 
 At this stage, my priority is to consolidate fundamental knowledge in programming and software development, including problem-solving, code organization, and project structuring.
 
 ---
 
-## 🎯 Goals
+## Goals
 
 - Develop consistent and well-structured projects
 - Expand my knowledge in backend development
