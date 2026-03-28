@@ -39,10 +39,8 @@ At this stage, my priority is to consolidate fundamental knowledge in programmin
 
 ## 📫 Contact
 
-**Email:** joaobohncostawork@email.com
-
 <p align="left">
-  <a href="mailto:joaobohncostawork@email.com"><img src="https://skillicons.dev/icons?i=gmail" width="40" alt="Gmail"/></a>&nbsp;
+  <a href="https://mail.google.com/mail/?view=cm&to=joaobohncostawork@email.com" target="_blank">
   <a href="https://www.instagram.com/jaumnss/" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" width="40" alt="Instagram"/></a>&nbsp;
   <a href="https://www.linkedin.com/in/jaumns" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" width="40" alt="LinkedIn"/></a>&nbsp;
   <a href="https://open.spotify.com/user/wlgoih8yr7pimasv1bkz58gha?si=1bec960a3d534302" target="_blank"><img src="https://skillicons.dev/icons?i=spotify" width="40" alt="Spotify"/></a>
