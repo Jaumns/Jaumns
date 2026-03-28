@@ -29,7 +29,7 @@ At this stage, my priority is to consolidate fundamental knowledge in programmin
 
 ---
 
-## <img src="assets/goals-icon.png" width="28" alt="Goals"/> Goals
+## 💡  Goals
 
 - Develop consistent and well-structured projects
 - Expand my knowledge in backend development
