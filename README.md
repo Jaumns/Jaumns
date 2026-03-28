@@ -1,16 +1,40 @@
-## Hi there 👋
+# Hi, I'm João
 
-<!--
-**Jaumns/Jaumns** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## 🎓 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I am a Software Engineering student at UNIJUÍ, currently focused on building a strong foundation in software development. My studies emphasize core programming concepts, with attention to clarity, consistency, and good development practices.
+
+I have practical experience with JavaScript and HTML, along with version control using Git and GitHub. I continuously develop my skills through academic activities and personal projects.
+
+I am particularly interested in technology as a tool for social impact, aiming to design and contribute to projects with a human-centered approach, focused on integration, accessibility, and strengthening the Brazilian community.
+
+---
+
+## ⚙️ Skills
+
+* JavaScript
+* HTML
+* Git and GitHub
+
+---
+
+## 📚 Current Focus
+
+At this stage, my priority is to consolidate fundamental knowledge in programming and software development, including problem-solving, code organization, and project structuring.
+
+---
+
+## 🎯 Goals
+
+* Develop consistent and well-structured projects
+* Expand my knowledge in backend development
+* Contribute to initiatives with social and community impact
+
+---
+
+## 📫 Contact
+
+Email: [joaobohncostawork@email.com](mailto:joaobohncostawork@email.com)
+****
