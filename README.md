@@ -12,7 +12,7 @@ I am particularly interested in technology as a tool for social impact, aiming t
 
 ---
 
-## ⚙️ Skills
+## Skills
 
 <p align="left">
   <a href="#"><img src="https://skillicons.dev/icons?i=git" width="40" alt="Git"/></a>&nbsp;
@@ -29,7 +29,7 @@ At this stage, my priority is to consolidate fundamental knowledge in programmin
 
 ---
 
-## 💡  Goals
+## Goals
 
 - Develop consistent and well-structured projects
 - Expand my knowledge in backend development
