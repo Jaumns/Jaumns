@@ -1,6 +1,6 @@
 # João Costa
 
-**Software Engineering Student**
+**Software Engineering Student**  
 Universidade Regional do Noroeste do Estado do Rio Grande do Sul (UNIJUÍ)
 
 Independent software developer focused on PC game optimization, performance enhancements, and mod development.
@@ -25,12 +25,12 @@ A performance and compatibility enhancement designed to improve Frame Generation
 
 **Key Features**
 
-* Improved Frame Generation compatibility
-* Stability enhancements
-* Automated installer
-* Ongoing maintenance and community support
+- Improved Frame Generation compatibility
+- Stability enhancements
+- Automated installer
+- Ongoing maintenance and community support
 
-**Project:**
+**Project:**  
 https://www.nexusmods.com/thesinkingcity/mods/25
 
 ---
@@ -41,13 +41,13 @@ A comprehensive enhancement package for *Control*, focused on improving visuals,
 
 **Key Features**
 
-* DLSS improvements
-* Texture streaming optimizations
-* Engine configuration tuning
-* DualSense Adaptive Triggers support
-* Simplified installation
+- DLSS improvements
+- Texture streaming optimizations
+- Engine configuration tuning
+- DualSense Adaptive Triggers support
+- Simplified installation
 
-**Project:**
+**Project:**  
 https://www.nexusmods.com/control/mods/135
 
 ---
@@ -60,43 +60,39 @@ https://www.nexusmods.com/control/mods/135
 
 **Technologies**
 
-* Git
-* GitHub
-* JavaScript
-* HTML
+- Git
+- GitHub
+- JavaScript
+- HTML
 
 ---
 
 ## Areas of Interest
 
-* Software Engineering
-* Performance Optimization
-* Reverse Engineering
-* Automation
-* Systems Programming
-* Game Mod Development
+- Software Engineering
+- Performance Optimization
+- Reverse Engineering
+- Automation
+- Systems Programming
+- Game Mod Development
 
 ---
 
 ## Current Goals
 
-* Build reliable and maintainable software solutions
-* Expand my knowledge of backend and systems programming
-* Contribute to open-source software and technical communities
-* Continue developing high-quality tools and game modifications for PC games
+- Build reliable and maintainable software solutions
+- Expand my knowledge of backend and systems programming
+- Contribute to open-source software and technical communities
+- Continue developing high-quality tools and game modifications for PC games
 
 ---
 
 ## Contact
 
-<p align="left">
-  <a href="mailto:joaobohncostawork@email.com">
-    <img src="https://skillicons.dev/icons?i=gmail" width="40" alt="Email"/>
-  </a>
-  <a href="https://www.linkedin.com/in/jaumns">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="40" alt="LinkedIn"/>
-  </a>
-  <a href="https://www.instagram.com/jaumnss/">
-    <img src="https://skillicons.dev/icons?i=instagram" width="40" alt="Instagram"/>
-  </a>
-</p>
+## Contact
+
+[![Email](https://img.shields.io/badge/Email-joaobohncostawork@email.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaobohncostawork@email.com)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-João%20Costa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaumns)
+
+[![Instagram](https://img.shields.io/badge/Instagram-@jaumnss-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jaumnss/)
