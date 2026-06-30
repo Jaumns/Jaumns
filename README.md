@@ -1,44 +1,52 @@
 # Hi, I'm João 👋
 
+Software Engineering Student at UNIJUÍ • Independent Mod Developer
+
 ---
 
 ## About Me
 
-I am a Software Engineering student at UNIJUÍ and an independent mod developer. Alongside my academic studies, I design and maintain game modifications focused on improving performance, graphics, input responsiveness, and overall user experience.
+I'm a Software Engineering student at UNIJUÍ and an independent mod developer passionate about improving the PC gaming experience.
 
-My work combines software development, reverse engineering, automation, and technical problem-solving. I also create installers, documentation, and provide ongoing support based on community feedback.
+I develop and maintain game modifications focused on performance, graphics, input responsiveness, and overall gameplay quality. My work involves software development, reverse engineering, automation, engine configuration, installer creation, technical documentation, and community support.
 
-I have experience with JavaScript, HTML, Git, and GitHub, and I continuously expand my skills through both academic projects and real-world software development.
+Alongside my academic journey, I continue to expand my knowledge through real-world projects and by maintaining mods used by players around the world.
 
 ---
 
-## Portfolio
-
-### The Sinking City Remastered — Frame Generation Fix
-Performance and compatibility mod focused on improving Frame Generation support and stability for *The Sinking City Remastered*.
-
-**Features**
-- Frame Generation compatibility improvements
-- Automated installer
-- Active maintenance and community support
-
-https://www.nexusmods.com/thesinkingcity/mods/25
+## Featured Projects
 
 ### Control — JM Overhaul
-Comprehensive enhancement pack for *Control*, combining visual improvements, input refinements, HDR support, and engine optimizations.
 
-**Features**
-- DLSS improvements
-- Texture streaming optimizations
-- Engine configuration tuning
-- DualSense Adaptive Triggers support
-- Simplified installation
+An all-in-one enhancement pack for *Control*, focused on improving visuals, performance, input responsiveness, and overall stability.
 
-https://www.nexusmods.com/control/mods/135
+**Highlights**
+
+* DLSS improvements
+* Texture streaming optimizations
+* Engine configuration tuning
+* HDR support
+* DualSense Adaptive Triggers support
+* One-click installer
+
+🔗 https://www.nexusmods.com/control/mods/135
+
+### The Sinking City Remastered — Frame Generation Fix
+
+A compatibility and performance mod that improves Frame Generation support and overall stability for *The Sinking City Remastered*.
+
+**Highlights**
+
+* Frame Generation compatibility improvements
+* Stability enhancements
+* Automated installer
+* Ongoing updates and community support
+
+🔗 https://www.nexusmods.com/thesinkingcity/mods/25
 
 ---
 
-## Skills
+## Tech Stack
 
 <p align="left">
   <a href="#"><img src="https://skillicons.dev/icons?i=git" width="40" alt="Git"/></a>&nbsp;
@@ -49,23 +57,23 @@ https://www.nexusmods.com/control/mods/135
 
 ---
 
-## Current Focus
+## What I'm Currently Working On
 
-- Software Engineering
-- Game mod development
-- Performance optimization
-- Reverse engineering
-- Automation tools
-- User experience improvements
+* Software Engineering
+* Game mod development
+* Performance optimization
+* Reverse engineering
+* Automation tools
+* User experience improvements
 
 ---
 
 ## Goals
 
-- Build high-quality software and modding tools
-- Expand my knowledge of backend and systems programming
-- Contribute to open-source and gaming communities
-- Continue developing projects used by thousands of players
+* Build reliable software and modding tools
+* Expand my knowledge of backend and systems programming
+* Contribute to open-source and gaming communities
+* Continue creating projects that improve the gaming experience for players worldwide
 
 ---
 
