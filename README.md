@@ -88,13 +88,17 @@ https://www.nexusmods.com/control/mods/135
 ---
 
 ## Contact
-<a href="https://www.linkedin.com/in/jaumns">
+
+## Contact
+
+<p align="left">
+  <a href="mailto:joaobohncostawork@email.com">
+    <img src="https://skillicons.dev/icons?i=gmail" width="40" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/jaumns">
     <img src="https://skillicons.dev/icons?i=linkedin" width="40" alt="LinkedIn"/>
   </a>
   <a href="https://www.instagram.com/jaumnss/">
     <img src="https://skillicons.dev/icons?i=instagram" width="40" alt="Instagram"/>
-  </a>
-  <a href="mailto:joaobohncostawork@email.com">
-    <img src="https://skillicons.dev/icons?i=gmail" width="40" alt="Email"/>
   </a>
 </p>
