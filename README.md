@@ -8,41 +8,42 @@ Software Engineering Student at UNIJUÍ • Independent Mod Developer
 
 I'm a Software Engineering student at UNIJUÍ and an independent mod developer passionate about improving the PC gaming experience.
 
-I develop and maintain game modifications focused on performance, graphics, input responsiveness, and overall gameplay quality. My work involves software development, reverse engineering, automation, engine configuration, installer creation, technical documentation, and community support.
+Alongside my academic studies, I develop and maintain game modifications focused on performance, graphics, input responsiveness, and overall user experience. My work involves software development, reverse engineering, automation, engine configuration, installer creation, technical documentation, and community support.
 
-Alongside my academic journey, I continue to expand my knowledge through real-world projects and by maintaining mods used by players around the world.
+I have experience with JavaScript, HTML, Git, and GitHub, and I continuously expand my skills through both academic projects and real-world software development.
 
 ---
 
 ## Featured Projects
 
-### Control — JM Overhaul
+### The Sinking City Remastered — Frame Generation Fix
 
-An all-in-one enhancement pack for *Control*, focused on improving visuals, performance, input responsiveness, and overall stability.
+Performance and compatibility mod designed to improve Frame Generation support, stability, and overall gameplay experience for *The Sinking City Remastered*.
+
+**Highlights**
+
+* Frame Generation compatibility improvements
+* Improved stability
+* Simple automated installer
+* Active maintenance and community support
+
+🔗 https://www.nexusmods.com/thesinkingcity/mods/25
+
+---
+
+### Control — JPC Overhaul
+
+A comprehensive enhancement pack for *Control*, combining visual improvements, engine optimizations, and gameplay refinements in a single installation.
 
 **Highlights**
 
 * DLSS improvements
 * Texture streaming optimizations
 * Engine configuration tuning
-* HDR support
 * DualSense Adaptive Triggers support
-* One-click installer
+* Simplified installation
 
 🔗 https://www.nexusmods.com/control/mods/135
-
-### The Sinking City Remastered — Frame Generation Fix
-
-A compatibility and performance mod that improves Frame Generation support and overall stability for *The Sinking City Remastered*.
-
-**Highlights**
-
-* Frame Generation compatibility improvements
-* Stability enhancements
-* Automated installer
-* Ongoing updates and community support
-
-🔗 https://www.nexusmods.com/thesinkingcity/mods/25
 
 ---
 
@@ -57,7 +58,7 @@ A compatibility and performance mod that improves Frame Generation support and o
 
 ---
 
-## What I'm Currently Working On
+## Current Focus
 
 * Software Engineering
 * Game mod development
@@ -73,7 +74,7 @@ A compatibility and performance mod that improves Frame Generation support and o
 * Build reliable software and modding tools
 * Expand my knowledge of backend and systems programming
 * Contribute to open-source and gaming communities
-* Continue creating projects that improve the gaming experience for players worldwide
+* Continue developing projects that improve the gaming experience for players worldwide
 
 ---
 
