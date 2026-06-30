@@ -88,12 +88,7 @@ https://www.nexusmods.com/control/mods/135
 ---
 
 ## Contact
-
-<p align="left">
-  <a href="https://github.com/Jaumns">
-    <img src="https://skillicons.dev/icons?i=github" width="40" alt="GitHub"/>
-  </a>
-  <a href="https://www.linkedin.com/in/jaumns">
+<a href="https://www.linkedin.com/in/jaumns">
     <img src="https://skillicons.dev/icons?i=linkedin" width="40" alt="LinkedIn"/>
   </a>
   <a href="https://www.instagram.com/jaumnss/">
