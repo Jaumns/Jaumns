@@ -2,7 +2,6 @@
 
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaobohncostawork@email.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-João%20Costa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaumns)
-[![Instagram](https://img.shields.io/badge/Instagram-@jaumnss-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jaumnss/)
 
 **Software Engineering Student**  
 Universidade Regional do Noroeste do Estado do Rio Grande do Sul (UNIJUÍ)
@@ -88,3 +87,8 @@ https://www.nexusmods.com/control/mods/135
 - Expand my knowledge of backend and systems programming
 - Contribute to open-source software and technical communities
 - Continue developing high-quality tools and game modifications for PC games
+
+## Socials
+
+[![Instagram](https://img.shields.io/badge/Instagram-@jaumnss-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jaumnss/)
+[![Spotify](https://img.shields.io/badge/Spotify-Listening-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/wlgoih8yr7pimasv1bkz58gha)
