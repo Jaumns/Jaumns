@@ -3,17 +3,17 @@
 **Software Engineering Student**
 Universidade Regional do Noroeste do Estado do Rio Grande do Sul (UNIJUÍ)
 
-Independent software developer specializing in PC game optimization, performance improvements, and mod development.
+Independent software developer focused on PC game optimization, performance enhancements, and mod development.
 
 ---
 
 ## Professional Profile
 
-I am currently pursuing a Bachelor's degree in Software Engineering at UNIJUÍ, where I am building a solid foundation in software engineering, algorithms, programming, and software architecture.
+I am currently pursuing a Bachelor's degree in Software Engineering at UNIJUÍ, where I am building a strong foundation in software engineering, algorithms, programming, and software architecture.
 
-Alongside my academic studies, I design, develop, and maintain game modifications focused on performance, graphics, compatibility, and user experience. My projects combine software development, reverse engineering, engine configuration, automation, installer development, technical documentation, and long-term community support.
+Alongside my academic studies, I develop and maintain game modifications that enhance performance, graphics, compatibility, and overall user experience. My work involves software development, reverse engineering, engine configuration, automation, installer development, technical documentation, and long-term project maintenance.
 
-I continuously improve my technical skills by applying engineering principles to real-world projects used by the gaming community.
+I continuously expand my technical knowledge by applying software engineering principles to real-world projects used by the gaming community.
 
 ---
 
@@ -21,7 +21,7 @@ I continuously improve my technical skills by applying engineering principles to
 
 ### The Sinking City Remastered — Frame Generation Fix
 
-Performance and compatibility enhancement for *The Sinking City Remastered*, designed to improve Frame Generation support and overall stability.
+A performance and compatibility enhancement designed to improve Frame Generation support and overall stability for *The Sinking City Remastered*.
 
 **Key Features**
 
@@ -37,7 +37,7 @@ https://www.nexusmods.com/thesinkingcity/mods/25
 
 ### Control — JPC Overhaul
 
-A comprehensive overhaul for *Control* that improves visuals, performance, input responsiveness, and overall gameplay experience.
+A comprehensive enhancement package for *Control*, focused on improving visuals, performance, input responsiveness, and overall gameplay experience.
 
 **Key Features**
 
@@ -80,14 +80,12 @@ https://www.nexusmods.com/control/mods/135
 
 ## Current Goals
 
-* Build reliable and maintainable software
+* Build reliable and maintainable software solutions
 * Expand my knowledge of backend and systems programming
-* Contribute to open-source software
-* Continue developing high-quality tools and game modifications for the PC gaming community
+* Contribute to open-source software and technical communities
+* Continue developing high-quality tools and game modifications for PC games
 
 ---
-
-## Contact
 
 ## Contact
 
