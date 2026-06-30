@@ -2,14 +2,13 @@
 
 Software Engineering Student at UNIJUÍ • Independent Mod Developer
 
-## Contact
+## Contacts
 
 <p align="left">
   <a href="https://mail.google.com/mail/?view=cm&to=joaobohncostawork@email.com" target="_blank"><img src="https://skillicons.dev/icons?i=gmail" width="40" alt="Gmail"/></a>&nbsp;
   <a href="https://www.instagram.com/jaumnss/" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" width="40" alt="Instagram"/></a>&nbsp;
   <a href="https://www.linkedin.com/in/jaumns" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" width="40" alt="LinkedIn"/></a>&nbsp;
 </p>
----
 
 ## About Me
 
