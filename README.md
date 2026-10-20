@@ -7,6 +7,12 @@
 </p>
 
 <details open>
+<summary><img src="img/bar-metas.svg" width="100%" alt="Current goals — expand or collapse"></summary>
+<br>
+<picture><img src="img/metas.svg" width="100%" alt="Current goals"></picture>
+</details>
+
+<details open>
 <summary><img src="img/bar-perfil.svg" width="100%" alt="Professional profile — expand or collapse"></summary>
 <br>
 <picture><img src="img/perfil.svg" width="100%" alt="About Jaumns"></picture>
@@ -39,13 +45,7 @@
 </details>
 
 <details open>
-<summary><img src="img/bar-metas.svg" width="100%" alt="Current goals — expand or collapse"></summary>
-<br>
-<picture><img src="img/metas.svg" width="100%" alt="Current goals"></picture>
-</details>
-
-<details open>
-<summary><img src="img/bar-metas.svg" width="100%" alt="Professional direction — expand or collapse"></summary>
+<summary><img src="img/bar-direction.svg" width="100%" alt="Professional direction — expand or collapse"></summary>
 <br>
 <picture><img src="img/direction.svg" width="100%" alt="Professional direction and career goals"></picture>
 </details>
