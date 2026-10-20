@@ -1,0 +1,231 @@
+{
+  "version": 1,
+  "login": "Jaumns",
+  "seed": "#FF2D4D",
+  "seedFromAvatar": false,
+  "scheme": "vibrant",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "buttons",
+    "about",
+    "stack",
+    "wave",
+    "stats",
+    "streak",
+    "socials",
+    "projects"
+  ],
+  "hidden": [
+    "socials",
+    "projects",
+    "stats",
+    "streak"
+  ],
+  "hero": {
+    "greeting": "olá, eu sou",
+    "name": "Jaumns",
+    "subtitle": "aka João Costa. Buscando estágio em Direção de Jogos, Design Narrativo e Produção.",
+    "typing": true,
+    "avatarShape": "pill",
+    "chips": [
+      {
+        "icon": "location_on",
+        "label": "Canoas, RS"
+      },
+      {
+        "icon": "terminal",
+        "label": "Eng. de Software"
+      },
+      {
+        "icon": "sports_esports",
+        "label": "Modder"
+      }
+    ]
+  },
+  "about": {
+    "title": "Projetos Selecionados",
+    "items": [
+      {
+        "icon": "sports_esports",
+        "label": "The Sinking City 2 — JM Overhaul · UE5 / INI"
+      },
+      {
+        "icon": "sports_esports",
+        "label": "The Sinking City Remastered — Frame Gen Fix · C++ / INI"
+      },
+      {
+        "icon": "sports_esports",
+        "label": "Control — JPC Overhaul · C++ / Tool"
+      },
+      {
+        "icon": "sports_esports",
+        "label": "CONTROL Resonant — Framework de Mods · C++ / XML"
+      },
+      {
+        "icon": "code",
+        "label": "Remedy's Pack — The Final Fix · em desenvolvimento"
+      },
+      {
+        "icon": "deployed_code",
+        "label": "Helyx — app desktop solo · Electron / React / tRPC"
+      }
+    ]
+  },
+  "stack": {
+    "title": "Habilidades Técnicas",
+    "groups": [
+      {
+        "title": "Tecnologias",
+        "items": [
+          {
+            "icon": "brand:git",
+            "label": "Git"
+          },
+          {
+            "icon": "brand:html5",
+            "label": "HTML"
+          },
+          {
+            "icon": "brand:javascript",
+            "label": "JavaScript"
+          },
+          {
+            "icon": "brand:typescript",
+            "label": "TypeScript"
+          },
+          {
+            "icon": "brand:react",
+            "label": "React"
+          },
+          {
+            "icon": "deployed_code",
+            "label": "Electron"
+          },
+          {
+            "icon": "brand:cplusplus",
+            "label": "C++"
+          },
+          {
+            "icon": "brand:python",
+            "label": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Áreas de Interesse",
+        "items": [
+          {
+            "icon": "sports_esports",
+            "label": "Direção de Jogos"
+          },
+          {
+            "icon": "mic",
+            "label": "Design Narrativo"
+          },
+          {
+            "icon": "rocket_launch",
+            "label": "Produção"
+          },
+          {
+            "icon": "terminal",
+            "label": "Engenharia reversa"
+          },
+          {
+            "icon": "video_settings",
+            "label": "Config. de engines"
+          }
+        ]
+      },
+      {
+        "title": "Metas Atuais",
+        "items": [
+          {
+            "icon": "trophy",
+            "label": "Game Director / Narrative / Producer"
+          },
+          {
+            "icon": "folder_zip",
+            "label": "Projetos bem estruturados"
+          },
+          {
+            "icon": "group",
+            "label": "Open source e comunidade"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "pinned",
+    "repos": [],
+    "overrides": {},
+    "empty": "Sem descrição.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "Atividade no GitHub",
+    "stars": "Estrelas",
+    "contributions": "Contribuições no ano",
+    "repos": "Repositórios",
+    "followers": "Seguidores",
+    "calendar": "Últimos 21 dias",
+    "weekdays": "DSTQQSS",
+    "languages": "Linguagens nos meus repositórios",
+    "showLanguages": true
+  },
+  "streak": {
+    "title": "Sequência",
+    "current": "Sequência atual",
+    "longest": "Maior no ano",
+    "days": "dias"
+  },
+  "socials": {
+    "items": [],
+    "variant": "chip",
+    "fill": "filled",
+    "card": true
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "language",
+        "label": "Portfólio",
+        "url": "https://jaumns.vercel.app",
+        "style": "filled"
+      },
+      {
+        "icon": "arrow_outward",
+        "label": "Gmail",
+        "url": "mailto:joaobohncostawork@gmail.com",
+        "style": "tonal"
+      },
+      {
+        "icon": "group",
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jaumns",
+        "style": "tonal"
+      },
+      {
+        "icon": "person",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/jaumnss/",
+        "style": "tonal"
+      },
+      {
+        "icon": "music_note",
+        "label": "Spotify",
+        "url": "https://open.spotify.com/user/wlgoih8yr7pimasv1bkz58gha",
+        "style": "tonal"
+      },
+      {
+        "icon": "coffee",
+        "label": "Apoiar",
+        "url": "https://buymeacoffee.com/jaumns",
+        "style": "tonal"
+      }
+    ],
+    "card": true
+  }
+}
