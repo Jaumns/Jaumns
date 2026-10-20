@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="132" viewBox="0 0 830 132" role="img" aria-label="Jaumns code tracker">
+<defs><linearGradient id="b" x1="0" x2="1"><stop stop-color="#17070c"/><stop offset=".5" stop-color="#3d0a17"/><stop offset="1" stop-color="#16060c"/></linearGradient><linearGradient id="r"><stop stop-color="#ff304f"/><stop offset="1" stop-color="#ff9a8b"/></linearGradient></defs>
+<rect x=".5" y=".5" width="829" height="131" rx="10" fill="url(#b)" stroke="#ff2e4d" stroke-opacity=".7"/>
+<path d="M26 104H804M26 80H804M26 56H804M26 32H804" stroke="#ff9a8b" stroke-opacity=".1"/>
+<g fill="url(#r)">
+<rect x="42" y="76" width="13" height="28" rx="2"><animate attributeName="height" values="28;53;28" dur="2.2s" repeatCount="indefinite"/><animate attributeName="y" values="76;51;76" dur="2.2s" repeatCount="indefinite"/></rect>
+<rect x="67" y="60" width="13" height="44" rx="2"><animate attributeName="height" values="44;21;44" dur="1.8s" repeatCount="indefinite"/><animate attributeName="y" values="60;83;60" dur="1.8s" repeatCount="indefinite"/></rect>
+<rect x="92" y="43" width="13" height="61" rx="2"><animate attributeName="height" values="61;35;61" dur="2.5s" repeatCount="indefinite"/><animate attributeName="y" values="43;69;43" dur="2.5s" repeatCount="indefinite"/></rect>
+<rect x="117" y="67" width="13" height="37" rx="2"><animate attributeName="height" values="37;60;37" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="67;44;67" dur="1.6s" repeatCount="indefinite"/></rect>
+</g>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#fff5f4"><text x="165" y="49" font-size="24" font-weight="700">CODE TRACKER</text><text x="166" y="72" font-size="12" fill="#ffb2ab">GitHub activity · contributions · repositories · languages</text><text x="166" y="101" font-size="10" letter-spacing="2" fill="#ffd36a">SYNC / GITHUB API / REFRESHED WITH CACHE</text></g>
+<circle cx="790" cy="30" r="5" fill="#ffd36a"><animate attributeName="opacity" values="1;.25;1" dur="1.5s" repeatCount="indefinite"/></circle>
+</svg>
