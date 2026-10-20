@@ -44,6 +44,12 @@
 <picture><img src="img/metas.svg" width="100%" alt="Current goals"></picture>
 </details>
 
+<details open>
+<summary><img src="img/bar-metas.svg" width="100%" alt="Professional direction — expand or collapse"></summary>
+<br>
+<picture><img src="img/direction.svg" width="100%" alt="Professional direction and career goals"></picture>
+</details>
+
 <picture><img src="img/footer.svg" width="100%" alt="Jaumns footer"></picture>
 
 </div>
