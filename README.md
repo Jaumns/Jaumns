@@ -36,15 +36,15 @@
 <br><br>
 
 <p><img src="img/bar-tracker.svg" width="100%" alt="Code tracker"></p>
-<picture><img src="img/tracker-signal.svg" width="100%" alt="Animated GitHub code tracker overview"></picture>
 <table width="100%"><tr>
-<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api?username=Jaumns&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;count_private=true&amp;cache_seconds=300&amp;layout=compact&amp;bg_color=17070c&amp;title_color=ff5366&amp;icon_color=ffd36a&amp;text_color=f5efff" width="100%" height="176" alt="GitHub stats"></td>
-<td width="50%" valign="top"><img src="https://streak-stats.demolab.com?user=Jaumns&amp;theme=dark&amp;hide_border=true&amp;background=17070c&amp;ring=ff5366&amp;fire=ffd36a&amp;currStreakLabel=f5efff&amp;sideLabels=ff9a8b&amp;dates=a99ab8" width="100%" height="176" alt="GitHub contribution streak"></td>
-</tr><tr>
-<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jaumns&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;cache_seconds=300&amp;bg_color=17070c&amp;title_color=ff5366&amp;text_color=f5efff" width="100%" height="176" alt="Most used programming languages"></td>
-<td width="50%" valign="top"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jaumns&amp;theme=radical" width="100%" height="176" alt="GitHub activity summary"></td>
+<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api?username=Jaumns&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;count_private=true&amp;card_width=400&amp;line_height=24&amp;cache_seconds=300&amp;bg_color=17070c&amp;title_color=ff5366&amp;icon_color=ffd36a&amp;text_color=f5efff" width="100%" alt="GitHub stats"></td>
+<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jaumns&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;card_width=400&amp;cache_seconds=300&amp;bg_color=17070c&amp;title_color=ff5366&amp;text_color=f5efff" width="100%" alt="Most used programming languages"></td>
 </tr></table>
 <br>
+<img src="https://streak-stats.demolab.com?user=Jaumns&amp;theme=dark&amp;hide_border=true&amp;background=17070c&amp;ring=ff5366&amp;fire=ffd36a&amp;currStreakLabel=f5efff&amp;sideLabels=ff9a8b&amp;dates=a99ab8" width="100%" alt="GitHub contribution streak">
+<br><br>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jaumns&amp;theme=radical" width="100%" alt="GitHub activity summary">
+<br><br>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jaumns&amp;bg_color=17070c&amp;color=f5efff&amp;line=ff5366&amp;point=ffd36a&amp;area_color=5e0d1c&amp;area=true&amp;hide_border=true&amp;custom_title=Contribution%20activity%20%2F%20Jaumns" width="100%" alt="GitHub contribution activity">
 <br><br>
 
