@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0715">
+  <meta name="description" content="Jaumns — game modding, software, narrativa e projetos digitais.">
+  <title>Jaumns // Control Room</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="pool" aria-label="Piscina vermelha interativa"></canvas>
+  <div class="pool-vignette"></div>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div><div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Jaumns home"><span class="brand-mark">J/</span><span>JAUMNS<span class="muted">.PROFILE</span></span></a>
+    <nav class="nav-tabs" aria-label="Navegação principal">
+      <button class="tab is-active" data-tab="home">01 / perfil</button>
+      <button class="tab" data-tab="projects">02 / projetos</button>
+      <button class="tab" data-tab="tracker">03 / code tracker</button>
+      <button class="tab" data-tab="lab">04 / lab</button>
+    </nav>
+    <div class="top-actions"><button id="themeToggle" class="icon-btn" aria-label="Alternar tema">◐</button><span class="live-dot"></span><span class="mono tiny">ONLINE / SP</span></div>
+  </header>
+
+  <main>
+    <section class="tab-panel is-visible" data-panel="home" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">// software · modding · narrative</p>
+          <h1>Construo mundos<br><em>por dentro.</em></h1>
+          <p class="hero-lede">Engenharia de software, reverse engineering e direção criativa para transformar jogos e ferramentas em experiências mais estáveis, bonitas e vivas.</p>
+          <div class="hero-ctas"><a class="btn btn-primary" href="#projects" data-jump="projects">explorar projetos <span>↗</span></a><a class="btn btn-ghost" href="mailto:joaobohncostawork@gmail.com">falar comigo <span>→</span></a></div>
+          <div class="hero-meta"><span class="mono">BASE</span><strong>São Paulo, BR</strong><span class="sep"></span><span class="mono">FOCO</span><strong>Remedy / tools / stories</strong></div>
+        </div>
+        <div class="hero-art reveal delay-1"><img src="assets/jaumns/header.svg" alt="Jaumns profile artwork"><div class="scanline"></div><div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div></div>
+      </div>
+      <div class="signal-row reveal delay-2"><div><span class="signal-label">STATUS</span><strong>building the next layer</strong></div><div class="signal-bars" aria-label="Sinal de atividade"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="mono">v2.6 / ACTIVE</div></div>
+      <div class="home-columns">
+        <article class="glass-card about-card reveal"><div class="card-kicker">01 / contexto</div><h2>Entre o código<br>e a intenção.</h2><p>Paralelamente aos estudos acadêmicos, mantenho modificações de jogos que melhoram performance, gráficos, compatibilidade e a experiência geral. Também desenvolvo o Helyx, um app pessoal com interface própria.</p><div class="pill-list"><span>game modding</span><span>reverse engineering</span><span>creative direction</span></div></article>
+        <article class="glass-card now-card reveal delay-1"><div class="card-kicker">02 / agora</div><div class="now-line"><span class="pulse"></span><span>em andamento</span><time id="clock">--:--:--</time></div><h3>Control // Resonant Fix</h3><p>Performance, visual fidelity e controle responsivo para uma experiência Remedy mais consistente.</p><div class="progress"><span style="width:72%"></span></div><div class="progress-caption"><span>release prep</span><span>72%</span></div></article>
+      </div>
+    </section>
+
+    <section class="tab-panel" data-panel="projects" id="projects">
+      <div class="section-heading"><div><p class="eyebrow">// selected work</p><h2>Projetos com<br><em>frequência própria.</em></h2></div><p class="section-note">Uma seleção de sistemas, overhauls e ferramentas que misturam precisão técnica com direção visual.</p></div>
+      <div class="project-grid">
+        <a class="project-card project-feature" href="https://www.nexusmods.com/control/mods/135" target="_blank" rel="noreferrer"><img src="assets/jaumns/proj-2.svg" alt="Control Resonant Fix"><span class="project-index">01</span><span class="project-arrow">↗</span><div class="project-overlay"><span class="tag">CONTROL / MODDING</span><h3>Control<br>Resonant Fix</h3><p>Visuals, performance e responsiveness.</p></div></a>
+        <a class="project-card" href="https://www.nexusmods.com/thesinkingcity/mods/25" target="_blank" rel="noreferrer"><img src="assets/jaumns/proj-1.svg" alt="The Sinking City Remastered"><span class="project-index">02</span><div class="project-overlay"><span class="tag">THE SINKING CITY</span><h3>Frame Generation<br>Support</h3></div></a>
+        <a class="project-card" href="https://www.nexusmods.com/thesinkingcity2/mods/26" target="_blank" rel="noreferrer"><img src="assets/jaumns/proj-3.svg" alt="The Sinking City 2"><span class="project-index">03</span><div class="project-overlay"><span class="tag">OVERHAUL</span><h3>Lumen Hardware<br>Ray Tracing</h3></div></a>
+        <a class="project-card project-wide" href="https://jaumns.vercel.app" target="_blank" rel="noreferrer"><img src="assets/jaumns/proj-4.svg" alt="Helyx app"><span class="project-index">04</span><div class="project-overlay"><span class="tag">PERSONAL APP</span><h3>Helyx / a desktop<br>system of my own</h3></div></a>
+      </div>
+    </section>
+
+    <section class="tab-panel" data-panel="tracker" id="tracker">
+      <div class="section-heading tracker-heading"><div><p class="eyebrow">// live telemetry</p><h2>Code<br><em>tracker.</em></h2></div><div class="tracker-status"><span class="live-dot"></span><span id="trackerStatus">sincronizando GitHub...</span><button id="refreshTracker" class="text-btn">atualizar ↻</button></div></div>
+      <div class="metric-grid"><article class="metric-card"><span class="metric-label">repositórios</span><strong id="repoCount">—</strong><span class="metric-foot">públicos no GitHub</span></article><article class="metric-card accent"><span class="metric-label">commits recentes</span><strong id="commitCount">—</strong><span class="metric-foot">últimos eventos públicos</span></article><article class="metric-card"><span class="metric-label">linguagem primária</span><strong id="topLanguage">—</strong><span class="metric-foot">por repositórios visíveis</span></article><article class="metric-card"><span class="metric-label">construindo há</span><strong id="daysBuilding">—</strong><span class="metric-foot">dias de prática contínua</span></article></div>
+      <div class="tracker-layout"><article class="glass-card activity-card"><div class="card-head"><div><span class="card-kicker">atividade / 30 dias</span><h3>Ritmo de construção</h3></div><span class="mono tiny" id="lastSync">--:--</span></div><div class="activity-chart" id="activityChart" aria-label="Gráfico de atividade de código"></div><div class="chart-legend"><span><i class="legend-dot high"></i> intenso</span><span><i class="legend-dot mid"></i> constante</span><span><i class="legend-dot low"></i> leve</span></div></article><article class="glass-card stack-card"><div class="card-kicker">stack / signal</div><h3>Ferramentas que<br>estão no loop.</h3><div class="stack-lines"><div><span>JavaScript</span><b>78%</b></div><div><span>C++</span><b>64%</b></div><div><span>Python</span><b>51%</b></div><div><span>Unreal / engine</span><b>43%</b></div></div></article></div>
+      <div class="noxy-strip">
+        <article class="noxy-module"><div class="module-label">galaxy layer / stack</div><picture><source media="(prefers-color-scheme: dark)" srcset="assets/noxy/stack-dark.svg"><img src="assets/noxy/stack-light.svg" alt="Stack visual inspirada no NoxyGalaxy"></picture></article>
+        <article class="noxy-module"><div class="module-label">github pulse / stats</div><picture><source media="(prefers-color-scheme: dark)" srcset="assets/noxy/stats-dark.svg"><img src="assets/noxy/stats-light.svg" alt="Estatísticas de atividade"></picture></article>
+      </div>
+      <div class="commit-strip glass-card"><div class="card-kicker">últimos sinais</div><div id="eventList" class="event-list"><div class="event-placeholder">Carregando eventos públicos de @Jaumns...</div></div></div>
+    </section>
+
+    <section class="tab-panel" data-panel="lab" id="lab">
+      <div class="section-heading"><div><p class="eyebrow">// after hours</p><h2>Lab &amp;<br><em>atmosfera.</em></h2></div><p class="section-note">Um espaço para música, rascunhos, referências e coisas que ainda não têm nome.</p></div>
+      <div class="lab-layout"><article class="player glass-card"><div class="card-head"><div><span class="card-kicker">sound system / 001</span><h3 id="trackTitle">Nenhuma faixa carregada</h3></div><span class="equalizer"><i></i><i></i><i></i><i></i></span></div><div class="player-art"><div class="vinyl"><span>J/</span></div><div class="track-info"><span id="trackArtist">adicione um .mp3, .wav ou .ogg</span><div class="waveform" id="waveform"></div></div></div><audio id="audio"></audio><div class="player-progress"><span id="currentTime">00:00</span><input id="seek" type="range" min="0" max="100" value="0" aria-label="Progresso da faixa"><span id="duration">00:00</span></div><div class="player-controls"><button id="prevTrack" class="control-btn">↶</button><button id="playBtn" class="play-btn" aria-label="Reproduzir">▶</button><button id="nextTrack" class="control-btn">↷</button><label class="volume">VOL <input id="volume" type="range" min="0" max="1" step="0.01" value="0.7"></label></div><label class="upload-btn">carregar áudio local <input id="audioFile" type="file" accept="audio/*"></label><p class="player-hint">O player funciona sem backend: carregue seus arquivos na pasta <code>profile/assets/audio</code> ou use o botão acima.</p></article><article class="mood-panel"><img src="assets/noxy/about-dark.svg" alt="About me visual from NoxyGalaxy"><div class="mood-caption"><span class="mono">MOODBOARD / NOXY SIGNAL</span><p>movimento, contraste e um pouco de caos controlado.</p></div></article></div>
+      <div class="social-row"><a href="https://github.com/Jaumns" target="_blank" rel="noreferrer">GitHub <span>↗</span></a><a href="https://www.linkedin.com/in/jaumns" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a href="https://open.spotify.com/user/wlgoih8yr7pimasv1bkz58gha" target="_blank" rel="noreferrer">Spotify <span>↗</span></a><a href="mailto:joaobohncostawork@gmail.com">Email <span>↗</span></a></div>
+    </section>
+  </main>
+  <footer><span>JAUMNS / CONTROL ROOM</span><span class="mono">© <span id="year"></span> — built with intent</span></footer>
+  <script src="pool.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
