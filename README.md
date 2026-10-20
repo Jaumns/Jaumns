@@ -32,8 +32,8 @@
 <summary><img src="img/tracker-signal.svg" width="100%" alt="Code tracker — expand or collapse"></summary>
 <br>
 <table width="100%"><tr>
-<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api?username=Jaumns&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;count_private=true&amp;cache_seconds=900&amp;layout=compact&amp;bg_color=17070c&amp;title_color=ff5366&amp;icon_color=ffd36a&amp;text_color=f5efff" width="100%" alt="GitHub code tracker"></td>
-<td width="50%" valign="top"><img src="https://streak-stats.demolab.com?user=Jaumns&amp;theme=dark&amp;hide_border=true&amp;background=17070c&amp;ring=ff5366&amp;fire=ffd36a&amp;currStreakLabel=f5efff&amp;sideLabels=ff9a8b&amp;dates=a99ab8" width="100%" alt="GitHub contribution streak"></td>
+<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api?username=Jaumns&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;count_private=true&amp;cache_seconds=300&amp;layout=compact&amp;bg_color=17070c&amp;title_color=ff5366&amp;icon_color=ffd36a&amp;text_color=f5efff" width="100%" height="180" alt="GitHub code tracker"></td>
+<td width="50%" valign="top"><img src="https://streak-stats.demolab.com?user=Jaumns&amp;theme=dark&amp;hide_border=true&amp;background=17070c&amp;ring=ff5366&amp;fire=ffd36a&amp;currStreakLabel=f5efff&amp;sideLabels=ff9a8b&amp;dates=a99ab8" width="100%" height="180" alt="GitHub contribution streak"></td>
 </tr></table>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jaumns&amp;theme=radical" width="92%" alt="GitHub contribution activity and profile details">
 </details>
