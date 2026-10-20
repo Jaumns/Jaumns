@@ -1,6 +1,7 @@
 <div align="center">
 <a href="https://jaumns.vercel.app"><img src="img/header.svg" width="100%" alt="João Costa (Jaumns)"></a>
 <br>
+<p><a href="https://jaumns.github.io/Jaumns/"><strong>↗ OPEN INTERACTIVE PROFILE — red pool / code tracker / lab</strong></a></p>
 <a href="mailto:joaobohncostawork@gmail.com"><img src="img/btn-gmail.svg" height="40" alt="Gmail"></a>&nbsp;<a href="https://www.linkedin.com/in/jaumns"><img src="img/btn-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;<a href="https://www.instagram.com/jaumnss/"><img src="img/btn-instagram.svg" height="40" alt="Instagram"></a>&nbsp;<a href="https://open.spotify.com/user/wlgoih8yr7pimasv1bkz58gha"><img src="img/btn-spotify.svg" height="40" alt="Spotify"></a>&nbsp;<a href="https://buymeacoffee.com/jaumns"><img src="img/btn-apoiar.svg" height="40" alt="Support"></a>
 <br>
 <img src="img/label.svg" width="100%" alt="">
