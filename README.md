@@ -7,31 +7,31 @@
 </p>
 
 <details open>
-<summary><img src="img/bar-perfil.svg" width="100%" alt="Professional profile — expand or collapse"></summary>
+<summary style="list-style: none; cursor: pointer;"><img src="img/bar-perfil.svg" width="100%" alt="Professional profile — expand or collapse"></summary>
 <br>
 <picture><img src="img/perfil.svg" width="100%" alt="About Jaumns"></picture>
 </details>
 
 <details open>
-<summary><img src="img/bar-direction.svg" width="100%" alt="Professional future — expand or collapse"></summary>
+<summary style="list-style: none; cursor: pointer;"><img src="img/bar-direction.svg" width="100%" alt="Professional future — expand or collapse"></summary>
 <br>
 <picture><img src="img/direction.svg" width="100%" alt="Professional future and career direction"></picture>
 </details>
 
 <details open>
-<summary><img src="img/bar-metas.svg" width="100%" alt="Current goals — expand or collapse"></summary>
+<summary style="list-style: none; cursor: pointer;"><img src="img/bar-metas.svg" width="100%" alt="Current goals — expand or collapse"></summary>
 <br>
 <picture><img src="img/metas.svg" width="100%" alt="Current goals"></picture>
 </details>
 
 <details open>
-<summary><img src="img/bar-skills.svg" width="100%" alt="Tech stack — expand or collapse"></summary>
+<summary style="list-style: none; cursor: pointer;"><img src="img/bar-skills.svg" width="100%" alt="Tech stack — expand or collapse"></summary>
 <br>
 <picture><img src="img/skills.svg" width="100%" alt="Tech stack"></picture>
 </details>
 
 <details open>
-<summary><img src="img/bar-projetos.svg" width="100%" alt="Selected projects — expand or collapse"></summary>
+<summary style="list-style: none; cursor: pointer;"><img src="img/bar-projetos.svg" width="100%" alt="Selected projects — expand or collapse"></summary>
 <br>
 <a href="https://www.nexusmods.com/thesinkingcity/mods/25"><img src="img/proj-1.svg" width="49%" alt="The Sinking City Remastered — Frame Generation Support"></a>&nbsp;<a href="https://www.nexusmods.com/control/mods/135"><img src="img/proj-2.svg" width="49%" alt="Control — Resonant Fix Overhaul"></a>
 <br>
@@ -41,7 +41,7 @@
 </details>
 
 <details open>
-<summary><img src="img/bar-tracker.svg" width="100%" alt="Code tracker — expand or collapse"></summary>
+<summary style="list-style: none; cursor: pointer;"><img src="img/bar-tracker.svg" width="100%" alt="Code tracker — expand or collapse"></summary>
 <br>
 <table width="100%"><tr>
 <td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api?username=Jaumns&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;count_private=true&amp;cache_seconds=300&amp;layout=compact&amp;bg_color=17070c&amp;title_color=ff5366&amp;icon_color=ffd36a&amp;text_color=f5efff" width="100%" height="180" alt="GitHub code tracker"></td>
