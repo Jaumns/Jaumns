@@ -6,6 +6,8 @@
 <a href="mailto:joaobohncostawork@gmail.com"><img src="img/btn-gmail.svg" height="40" alt="Gmail"></a>&nbsp;<a href="https://www.linkedin.com/in/jaumns"><img src="img/btn-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;<a href="https://www.instagram.com/jaumnss/"><img src="img/btn-instagram.svg" height="40" alt="Instagram"></a>&nbsp;<a href="https://open.spotify.com/user/wlgoih8yr7pimasv1bkz58gha"><img src="img/btn-spotify.svg" height="40" alt="Spotify"></a>&nbsp;<a href="https://buymeacoffee.com/jaumns"><img src="img/btn-apoiar.svg" height="40" alt="Support"></a>
 </p>
 
+<picture><img src="img/dev-icons.svg" width="100%" alt="Developer icons"></picture>
+
 <p><img src="img/bar-perfil.svg" width="100%" alt="section"></p>
 <picture><img src="img/perfil.svg" width="100%" alt="About Jaumns"></picture>
 
@@ -27,6 +29,12 @@
 
 <p><img src="img/bar-tracker.svg" width="100%" alt="section"></p>
 <picture><img src="img/tracker.svg" width="100%" alt="GitHub activity: contributions, streaks and weekly chart"></picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="img/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="img/snake.svg">
+  <img alt="GitHub contribution grid snake animation" src="img/snake-dark.svg" width="100%">
+</picture>
 
 <picture><img src="img/footer.svg" width="100%" alt="Jaumns footer"></picture>
 
