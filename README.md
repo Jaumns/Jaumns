@@ -21,7 +21,7 @@
 <picture><img src="img/skills.svg" width="100%" alt="Tech stack"></picture>
 
 <p><img src="img/bar-projetos.svg" width="100%" alt="section"></p>
-<a href="https://www.nexusmods.com/thesinkingcity/mods/25"><img src="img/proj-1.svg" width="49%" alt="The Sinking City Remastered — Frame Generation Support"></a>&nbsp;<a href="https://www.nexusmods.com/control/mods/135"><img src="img/proj-2.svg" width="49%" alt="Control — Resonant Fix Overhaul"></a>
+<a href="https://www.nexusmods.com/thesinkingcity/mods/25"><img src="img/proj-1.svg" width="49%" alt="The Sinking City Remastered — Frame Generation Support"></a>&nbsp;<a href="https://www.nexusmods.com/control/mods/165"><img src="img/proj-2.svg" width="49%" alt="Control — Resonant Fix Overhaul"></a>
 <br>
 <a href="https://www.nexusmods.com/thesinkingcity2/mods/26"><img src="img/proj-3.svg" width="49%" alt="The Sinking City 2 — Lumen Hardware Ray Tracing"></a>&nbsp;<a href="https://jaumns.vercel.app"><img src="img/proj-4.svg" width="49%" alt="Helyx — personal desktop app"></a>
 <br>
