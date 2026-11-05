@@ -29,14 +29,14 @@
 <g class="u" style="animation-delay:.1s">
 <text x="415.0" y="48" text-anchor="middle" font-size="22" font-weight="800" letter-spacing="7" fill="#ff2e4d">JAUMNS</text>
 <text x="415.0" y="48" text-anchor="middle" font-size="22" font-weight="800" letter-spacing="7" fill="#ff9a8b" opacity=".18" transform="translate(1.5,1.5)">JAUMNS</text>
-<text x="415.0" y="69" text-anchor="middle" font-size="11" fill="#8f8793" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" letter-spacing=".6">Personal Portfolio · Projects, Experiments and Journey</text>
+<text x="415.0" y="69" text-anchor="middle" font-size="11" fill="#8f8793" font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" letter-spacing=".6">Personal Portfolio · Projects, Experiments and Journey</text>
 </g>
 <g class="u" style="animation-delay:.3s">
 <g transform="translate(275,84)"><circle class="pg" cx="6" cy="6" r="3.5" fill="none" stroke="#ff2e4d"/>
 <circle class="b" cx="6" cy="6" r="3" fill="#ff2e4d"/></g>
-<text x="293" y="94" font-size="11" fill="#c9c3c6" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">Rio Grande do Sul, BR</text>
-<text x="453" y="94" font-size="11" fill="#615c62" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">·</text>
-<text x="469" y="94" font-size="11" fill="#c9c3c6" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">© 2026 Jaumns</text>
+<text x="293" y="94" font-size="11" fill="#c9c3c6" font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif">Rio Grande do Sul, BR</text>
+<text x="453" y="94" font-size="11" fill="#615c62" font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif">·</text>
+<text x="469" y="94" font-size="11" fill="#c9c3c6" font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif">© 2026 Jaumns</text>
 </g>
 <rect x=".5" y=".5" width="829" height="131" rx="10" fill="none" stroke="#2e1519"/>
 </svg>
