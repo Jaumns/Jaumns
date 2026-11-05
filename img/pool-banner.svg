@@ -19,7 +19,7 @@
     <animateTransform attributeName="transform" type="translate" values="0 0; -25 7; 0 0" dur="4.2s" repeatCount="indefinite"/>
   </path>
 </g>
-<g font-family="Segoe UI,Arial,sans-serif" fill="#fff5f4">
+<g font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" fill="#fff5f4">
   <text x="42" y="62" font-size="12" letter-spacing="3" fill="#ffd36a">// GAME MODDING · SOFTWARE · NARRATIVE</text>
   <text x="42" y="145" font-size="65" font-weight="700" letter-spacing="-3">JAUMNS</text>
   <text x="46" y="176" font-size="16" fill="#ffb2ab">building worlds from the inside.</text>
