@@ -1,0 +1,53 @@
+name: Validate profile assets
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate README references and SVG files
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+          import re
+          import sys
+
+          root = Path(".")
+          readme = (root / "README.md").read_text(encoding="utf-8")
+          references = set()
+          pattern = r"""(?:src|srcset)=["'](img/[^"']+)|\]\((img/[^)]+)\)"""
+          for match in re.finditer(pattern, readme):
+              reference = match.group(1) or match.group(2)
+              references.add(reference.split()[0])
+
+          missing = sorted(ref for ref in references if not (root / ref).is_file())
+          if missing:
+              print("Missing README assets:")
+              print("\n".join(missing))
+              sys.exit(1)
+
+          svg_files = sorted((root / "img").glob("*.svg"))
+          if not svg_files:
+              raise SystemExit("No SVG assets found.")
+          for svg in svg_files:
+              ET.parse(svg)
+
+          compile((root / "scripts" / "build_tracker.py").read_text(encoding="utf-8"), "scripts/build_tracker.py", "exec")
+          print(f"Validated {len(svg_files)} SVG files and {len(references)} README asset references.")
+          PY
