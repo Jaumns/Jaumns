@@ -15,15 +15,30 @@ def get(url, accept=None):
         return r.read().decode()
 
 def calendar():
+    """Read the public contribution calendar and pair each date with its tooltip."""
     page = get(f"https://github.com/users/{USER}/contributions")
-    dates = dict(re.findall(r'data-date="([\d-]+)" id="(contribution-day-component-\d+-\d+)"', page))
-    dates = {v: k for k, v in dates.items()}                  # id -> date
     days = {}
-    for m in re.finditer(r'for="(contribution-day-component-\d+-\d+)"[^>]*>\s*([^<]*?)\s*<', page):
-        cid, txt = m.groups()
-        if cid not in dates: continue
-        n = re.match(r"(\d+) contribution", txt)
-        days[dates[cid]] = int(n.group(1)) if n else 0
+
+    # GitHub places data-date on each calendar cell and the contribution
+    # count inside its nested tool-tip. Keep parsing tolerant of attribute
+    # order and surrounding markup changes.
+    cells = re.finditer(
+        r'<td\b(?=[^>]*\bdata-date="(\d{4}-\d{2}-\d{2})")[^>]*>(.*?)</td>',
+        page,
+        re.S,
+    )
+    for cell in cells:
+        date, markup = cell.groups()
+        tooltip = re.search(r'<tool-tip\b[^>]*>(.*?)</tool-tip>', markup, re.S | re.I)
+        if not tooltip:
+            tooltip = re.search(r'<span[^>]*>(.*?)</span>', markup, re.S | re.I)
+        value = re.sub(r'<[^>]+>', ' ', tooltip.group(1)) if tooltip else ''
+        value = html.unescape(re.sub(r'\s+', ' ', value)).strip()
+        count = re.search(r'(\d+)\s+contributions?', value, re.I)
+        days[date] = int(count.group(1)) if count else 0
+
+    if not days:
+        raise RuntimeError("Could not parse GitHub contribution calendar; refusing to publish stale tracker data.")
     return dict(sorted(days.items()))
 
 def streaks(days):
