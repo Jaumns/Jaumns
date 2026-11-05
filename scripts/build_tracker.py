@@ -15,30 +15,62 @@ def get(url, accept=None):
         return r.read().decode()
 
 def calendar():
-    """Read the public contribution calendar and pair each date with its tooltip."""
-    page = get(f"https://github.com/users/{USER}/contributions")
-    days = {}
+    """Read exact daily contribution counts from GitHub's GraphQL contribution calendar."""
+    if not TOKEN:
+        raise RuntimeError("GITHUB_TOKEN is required to read the contribution calendar reliably.")
 
-    # GitHub places data-date on each calendar cell and the contribution
-    # count inside its nested tool-tip. Keep parsing tolerant of attribute
-    # order and surrounding markup changes.
-    cells = re.finditer(
-        r'<td\b(?=[^>]*\bdata-date="(\d{4}-\d{2}-\d{2})")[^>]*>(.*?)</td>',
-        page,
-        re.S,
+    today = dt.date.today()
+    start = today - dt.timedelta(days=364)
+    query = """
+    query($login: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $login) {
+        contributionsCollection(from: $from, to: $to) {
+          contributionCalendar {
+            weeks {
+              contributionDays {
+                date
+                contributionCount
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+    payload = {
+        "query": query,
+        "variables": {
+            "login": USER,
+            "from": start.isoformat() + "T00:00:00Z",
+            "to": today.isoformat() + "T23:59:59Z",
+        },
+    }
+    request = urllib.request.Request(
+        "https://api.github.com/graphql",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "User-Agent": "profile-tracker",
+            "Authorization": f"Bearer {TOKEN}",
+            "Content-Type": "application/json",
+        },
     )
-    for cell in cells:
-        date, markup = cell.groups()
-        tooltip = re.search(r'<tool-tip\b[^>]*>(.*?)</tool-tip>', markup, re.S | re.I)
-        if not tooltip:
-            tooltip = re.search(r'<span[^>]*>(.*?)</span>', markup, re.S | re.I)
-        value = re.sub(r'<[^>]+>', ' ', tooltip.group(1)) if tooltip else ''
-        value = html.unescape(re.sub(r'\s+', ' ', value)).strip()
-        count = re.search(r'(\d+)\s+contributions?', value, re.I)
-        days[date] = int(count.group(1)) if count else 0
+    with urllib.request.urlopen(request, timeout=30) as response:
+        result = json.loads(response.read().decode("utf-8"))
+
+    if result.get("errors"):
+        raise RuntimeError("GitHub contribution query failed: " + json.dumps(result["errors"]))
+    user = result.get("data", {}).get("user")
+    if not user:
+        raise RuntimeError(f"GitHub user '{USER}' was not returned by the contribution query.")
+
+    days = {}
+    weeks = user["contributionsCollection"]["contributionCalendar"]["weeks"]
+    for week in weeks:
+        for day in week["contributionDays"]:
+            days[day["date"]] = int(day["contributionCount"])
 
     if not days:
-        raise RuntimeError("Could not parse GitHub contribution calendar; refusing to publish stale tracker data.")
+        raise RuntimeError("GitHub returned an empty contribution calendar; refusing to publish stale tracker data.")
     return dict(sorted(days.items()))
 
 def streaks(days):
