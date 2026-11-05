@@ -204,7 +204,7 @@ def build():
 <path class="d" d="{line}" pathLength="1" fill="none" stroke="url(#l)" stroke-width="2.2" stroke-linecap="round"/>
 <rect class="sc" x="{cx0}" y="{cy1-12}" width="40" height="{cy0-cy1+14}" fill="url(#s)"/></g>
 <g class="f"><circle cx="{pts[-1][0]:.1f}" cy="{pts[-1][1]:.1f}" r="4" fill="#ffd36a"/><circle class="pg" cx="{pts[-1][0]:.1f}" cy="{pts[-1][1]:.1f}" r="4" fill="none" stroke="#ffd36a" stroke-width="1.5"/></g>
-<g font-size="9.5" fill="#8f8793" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" letter-spacing=".8">'''
+<g font-size="9.5" fill="#8f8793" font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" letter-spacing=".8">'''
     for x, m in months: svg += f'<text x="{x:.0f}" y="305">{m}</text>'
     svg += '</g>\n</svg>'
     open(OUT, "w", encoding="utf-8").write(svg)
