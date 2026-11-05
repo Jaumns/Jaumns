@@ -8,6 +8,6 @@
 <rect x="92" y="43" width="13" height="61" rx="2"><animate attributeName="height" values="61;35;61" dur="2.5s" repeatCount="indefinite"/><animate attributeName="y" values="43;69;43" dur="2.5s" repeatCount="indefinite"/></rect>
 <rect x="117" y="67" width="13" height="37" rx="2"><animate attributeName="height" values="37;60;37" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="67;44;67" dur="1.6s" repeatCount="indefinite"/></rect>
 </g>
-<g font-family="Segoe UI,Arial,sans-serif" fill="#fff5f4"><text x="165" y="49" font-size="24" font-weight="700">CODE TRACKER</text><text x="166" y="72" font-size="12" fill="#ffb2ab">GitHub activity · contributions · repositories · languages</text><text x="166" y="101" font-size="10" letter-spacing="2" fill="#ffd36a">SYNC / GITHUB API / REFRESHED WITH CACHE</text></g>
+<g font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" fill="#fff5f4"><text x="165" y="49" font-size="24" font-weight="700">CODE TRACKER</text><text x="166" y="72" font-size="12" fill="#ffb2ab">GitHub activity · contributions · repositories · languages</text><text x="166" y="101" font-size="10" letter-spacing="2" fill="#ffd36a">SYNC / GITHUB API / REFRESHED WITH CACHE</text></g>
 <circle cx="790" cy="30" r="5" fill="#ffd36a"><animate attributeName="opacity" values="1;.25;1" dur="1.5s" repeatCount="indefinite"/></circle>
 </svg>
