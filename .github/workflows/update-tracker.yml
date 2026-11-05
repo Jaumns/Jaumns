@@ -34,13 +34,31 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/build_tracker.py
       - name: Commit updated tracker
+        env:
+          GH_USER: Jaumns
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if git diff --quiet -- img/tracker.svg; then
-            echo "Tracker is already up to date."
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add img/tracker.svg
-          git commit -m "chore: refresh GitHub activity tracker"
-          git push
+
+          for attempt in 1 2 3; do
+            if git diff --quiet -- img/tracker.svg; then
+              echo "Tracker is already up to date."
+              exit 0
+            fi
+
+            git add img/tracker.svg
+            git commit -m "chore: refresh GitHub activity tracker"
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Push raced with another update; refreshing from main (attempt $attempt/3)."
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/build_tracker.py
+          done
+
+          echo "Could not publish tracker after three attempts."
+          exit 1
